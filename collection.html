@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Collection | Lumière Jewelry</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" style="background: rgba(10, 10, 10, 0.95); border-bottom: 1px solid #222;">
+        <a href="index.html" class="brand-logo">Lumière<span>.</span></a>
+        
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="collection.html" class="active">Collection</a>
+            <a href="custom.html">Custom Design</a>
+            <a href="about.html">Our Story</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        
+        <button class="mobile-menu-btn">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- Collection Header -->
+    <header class="section" style="padding-top: 12rem; padding-bottom: 4rem; text-align: center;">
+        <h1 class="serif reveal" style="font-size: 3.5rem; margin-bottom: 1rem;">The Master Collection</h1>
+        <p class="reveal" style="color: #bbb; max-width: 600px; margin: 0 auto;">Discover our meticulously curated selection of fine jewelry, where timeless design meets modern luxury.</p>
+    </header>
+
+    <!-- Full Collection Grid -->
+    <section class="section" style="padding-top: 0;">
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card reveal">
+                <div class="product-img-wrapper">
+                    <img src="images/ring-01.png" alt="Solitaire Engagement Ring" onerror="this.src='images/hero.png'">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Solitaire Engagement Ring</h3>
+                    <div class="product-actions">
+                        <a href="#" class="btn btn-solid wa-btn" data-action="order" data-item="Solitaire Engagement Ring">Order via WhatsApp</a>
+                        <a href="#" class="btn wa-btn" data-action="price" data-item="Solitaire Engagement Ring">Ask for Price</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 2 -->
+            <div class="product-card reveal">
+                <div class="product-img-wrapper">
+                    <img src="images/bracelet-01.png" alt="Diamond Pave Bangle" onerror="this.src='images/hero.png'">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Diamond Pave Bangle</h3>
+                    <div class="product-actions">
+                        <a href="#" class="btn btn-solid wa-btn" data-action="order" data-item="Diamond Pave Bangle">Order via WhatsApp</a>
+                        <a href="#" class="btn wa-btn" data-action="price" data-item="Diamond Pave Bangle">Ask for Price</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Product 3 -->
+            <div class="product-card reveal">
+                <div class="product-img-wrapper">
+                    <img src="images/earrings-01.png" alt="Emerald Drop Earrings" onerror="this.src='images/hero.png'">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Emerald Drop Earrings</h3>
+                    <div class="product-actions">
+                        <a href="#" class="btn btn-solid wa-btn" data-action="order" data-item="Emerald Drop Earrings">Order via WhatsApp</a>
+                        <a href="#" class="btn wa-btn" data-action="price" data-item="Emerald Drop Earrings">Ask for Price</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="product-card reveal">
+                <div class="product-img-wrapper">
+                    <!-- Fallback to hero image as placeholder -->
+                    <img src="images/hero.png" alt="Gold Chain Necklace" onerror="this.src='images/ring-01.png'">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">18k Gold Layered Necklace</h3>
+                    <div class="product-actions">
+                        <a href="#" class="btn btn-solid wa-btn" data-action="order" data-item="18k Gold Layered Necklace">Order via WhatsApp</a>
+                        <a href="#" class="btn wa-btn" data-action="price" data-item="18k Gold Layered Necklace">Ask for Price</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 5 -->
+            <div class="product-card reveal">
+                <div class="product-img-wrapper">
+                    <img src="images/ring-01.png" alt="Sapphire Halo Ring" onerror="this.src='images/bracelet-01.png'" style="filter: hue-rotate(180deg) saturate(2);">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Sapphire Halo Cocktail Ring</h3>
+                    <div class="product-actions">
+                        <a href="#" class="btn btn-solid wa-btn" data-action="order" data-item="Sapphire Halo Cocktail Ring">Order via WhatsApp</a>
+                        <a href="#" class="btn wa-btn" data-action="price" data-item="Sapphire Halo Cocktail Ring">Ask for Price</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 6 -->
+            <div class="product-card reveal">
+                <div class="product-img-wrapper">
+                    <img src="images/earrings-01.png" alt="Pearl Drop Earrings" onerror="this.src='images/hero.png'" style="filter: grayscale(80%) sepia(20%) brightness(1.2);">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">South Sea Pearl Earrings</h3>
+                    <div class="product-actions">
+                        <a href="#" class="btn btn-solid wa-btn" data-action="order" data-item="South Sea Pearl Earrings">Order via WhatsApp</a>
+                        <a href="#" class="btn wa-btn" data-action="price" data-item="South Sea Pearl Earrings">Ask for Price</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Products 7-10 (Placeholders) -->
+            <div class="product-card reveal">
+                <div class="product-img-wrapper">
+                    <img src="images/bracelet-01.png" alt="Tennis Bracelet" onerror="this.src='images/hero.png'" style="filter: brightness(1.5);">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Classic Tennis Bracelet</h3>
+                    <div class="product-actions">
+                        <a href="#" class="btn btn-solid wa-btn" data-action="order" data-item="Classic Tennis Bracelet">Order via WhatsApp</a>
+                        <a href="#" class="btn wa-btn" data-action="price" data-item="Classic Tennis Bracelet">Ask for Price</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product-card reveal">
+                <div class="product-img-wrapper">
+                    <img src="images/ring-01.png" alt="Eternity Band" onerror="this.src='images/hero.png'" style="transform: scale(0.8) rotate(15deg);">
+                </div>
+                <div class="product-info">
+                    <h3 class="product-title">Diamond Eternity Band</h3>
+                    <div class="product-actions">
+                        <a href="#" class="btn btn-solid wa-btn" data-action="order" data-item="Diamond Eternity Band">Order via WhatsApp</a>
+                        <a href="#" class="btn wa-btn" data-action="price" data-item="Diamond Eternity Band">Ask for Price</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="brand-logo" style="margin-bottom: 1.5rem; display: block;">Lumière<span>.</span></a>
+                <p>Crafting light into physical form. Exclusive high-end jewelry atelier based in luxury.</p>
+                <div class="social-links" style="margin-top: 1.5rem;">
+                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                    <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://pinterest.com"><i class="fab fa-pinterest-p"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Explore</h3>
+                <a href="index.html">Home</a>
+                <a href="collection.html">Collections</a>
+                <a href="custom.html">Custom Design</a>
+                <a href="about.html">Our Story</a>
+            </div>
+            
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <a href="#" class="wa-btn" data-action="general"><i class="fab fa-whatsapp"></i> +212 600 000 000</a>
+                <a href="mailto:contact@lumierejewelry.com"><i class="far fa-envelope"></i> contact@lumiere.com</a>
+                <p><i class="fas fa-map-marker-alt"></i> Luxury District, Atelier 4</p>
+                <a href="contact.html" style="margin-top: 1rem; color: var(--gold); text-decoration: underline;">Contact Form</a>
+            </div>
+            
+            <div class="footer-col map-container">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3323.846458428178!2d-7.632661884797089!3d33.58334468073602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7d2bcf398b1b1%3A0xe54df9c39cc5a51c!2sTwin%20Center%2C%20Casablanca!5e0!3m2!1sen!2sma!4v1628104523674!5m2!1sen!2sma" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2026 Lumière Jewelry. All rights reserved. Exclusively designed for the elite.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+</body>
+</html>
