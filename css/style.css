@@ -283,7 +283,8 @@ ul {
   box-shadow: 0 10px 30px rgba(0,0,0,0.5);
   transition: all 0.5s cubic-bezier(0.25, 0.8, 0.25, 1);
   position: relative;
-  group: hover;
+  display: flex;
+  flex-direction: column;
 }
 
 .product-card:hover {
@@ -317,6 +318,9 @@ ul {
 .product-info {
   padding: 1.5rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .product-title {
@@ -329,7 +333,7 @@ ul {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin-top: 1.5rem;
+  margin-top: auto;
 }
 
 .product-actions .btn {
